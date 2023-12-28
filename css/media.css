@@ -1,0 +1,33 @@
+li {
+    list-style-type: none;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+img{  border-radius: 15px;}
+.dropdown{display: none}
+@media screen and (max-width:800px) {
+    .dropdown{display: inline}
+    .hide{display: none}
+    iframe{
+        width: 450px;
+        height: 300px;
+    }
+    a.hide{
+        display: none;
+    }
+    .shift{
+        right: 90px;
+
+    }
+    .top-menu {
+        width: 505px;
+    }
+    .lupa{
+        right: 60px;
+    }
+    .shift2{
+        right: 120px;
+
+    }}
